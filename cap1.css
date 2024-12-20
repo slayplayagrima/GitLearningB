@@ -5,7 +5,7 @@
     
 }
 body{
-    background-color: black;
+    background-color: #080F17;
 }
 
 
@@ -23,7 +23,9 @@ body{
     display: flex;
     gap: 15px;
   }
-  
+  .pr{
+    color:#D6DDE6;
+  }
   .nav-item {
     cursor: pointer;
   }
@@ -177,21 +179,21 @@ main h1{
     cursor: pointer;
     color:black
 }
-.pihu{
+.me{
     width: 100%;
 
 }
-.gandapihu h1{
+.lower-middle h1{
     padding: 5.2rem;
 }
-.pihu .para{
+.me .para{
     font-family:'Jakarta Sans', sans-serif; ;
     width: 50%;
     color: white;
     padding: 75px;
     font-size:3.5rem;
 }
-.pihu2{
+.client{
     text-align: center;
     color: white;
 }
@@ -207,40 +209,40 @@ main h1{
     background-color: #FFFFFF0A;
     border: 1.5px ;
 }
-.pihupihu {
+.social-media{
     width: 100%;
     margin-top: 20rem;
     /* background-color: red; */
     height: 700px;
-    background-image: url("images/image6.png");
+    background-image: url("images/footerimg.png");
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
     text-align: center;
 }
-.pihupihu h2{
+.social-media h2{
     padding-top: 100px;
     padding-bottom: 40px;
 }
-.pihupihu input{
+.social-media input{
     width: 300px;
     padding: 0.4rem;
     border: 1px solid grey;
     border-radius: 5px;
     background-color: #131921;
 }
-.pihupihu button{
+.social-media button{
     padding: 0.4rem;
     border: 1px solid grey;
     border-radius: 5px;
     background-color: greenyellow;
     color: black;
 }
-.chotapihu{
+.icons{
     display: flex;
     justify-content: center;
 }
-.chotapihu img{
+.icons img{
     padding: 40px;
 }
 
